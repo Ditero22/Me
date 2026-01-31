@@ -181,8 +181,7 @@ body {
 
 
 /* LEFT COLUMN (Text) */
-.hero-left {  
-  flex: 1;             
+.hero-left {              
   min-width: 2%;  
   margin-left: 10px;
 }
