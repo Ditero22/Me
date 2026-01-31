@@ -1,4 +1,7 @@
 import React from "react";
+import dlsud from "../assets/dlsud.png";
+import dvoref from "../assets/dvoref.png";
+import jhs from "../assets/jhs.png";
 
 const educationData = [
   {
@@ -9,31 +12,31 @@ const educationData = [
       "3rd Year – 1st Semester: First Honors",
       "3rd Year – 2nd Semester: Second Honors",
     ],
-    logo: "/dlsud.png",
+    logo: dlsud,
     reverse: false,
   },
   {
     level: "Senior High School",
     school: "Dr. Vicente Orestes Romualdez Educational Foundation, LEYTE | S.Y.: 2019 - 2022",
-    logo: "/dvoref.png",
+    logo: dvoref,
     reverse: true,
   },
   {
     level: "Secondary Education",
     school: "Sacred Heart Seminary of Palo Inc., LEYTE | S.Y.: 2017 - 2019",
-    logo: "/jhs.png",
+    logo: jhs,
     reverse: false,
   },
   {
     level: "Secondary Education",
     school: "St. Joseph High School Inc., LEYTE | S.Y.: 2015 - 2017",
-    logo: "/jhs.png",
+    logo: jhs,
     reverse: true,
   },
   {
     level: "Primary Education",
     school: "Dagami South Central School, LEYTE",
-    logo: "/elementary-logo.png",
+    logo: jhs,
     reverse: false,
   },
 ];

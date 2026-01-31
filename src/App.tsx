@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import WhatsAppContactForm from "./pages/WhatsAppContactForm";
 import Education from "./pages/Education";
+import Logo from "./assets/Logo.png";
+import heroright from "./assets/hero-right2.png";
 
 interface Project {
   title: string;
@@ -94,7 +96,7 @@ const App: FC = () => {
   return (
     <>
       <img
-        src="/Logo.png"
+        src={Logo}
         alt="Background Logo"
         className="background-logo"
         style={{ left: `${scrollX}%` }}
@@ -117,7 +119,7 @@ const App: FC = () => {
             <button>RESUME</button>
           </div>
           <div className="hero-right">
-            <img src="/hero-right2.png" alt="Hero Image" className="rotating-image" />
+            <img src={heroright} alt="Hero Image" className="rotating-image" />
           </div>
         </section>
 
